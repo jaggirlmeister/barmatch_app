@@ -9,7 +9,7 @@ export const Container = styled.footer`
     align-items: center;
 
     .logo {
-        height: 1em;
+        height: 3em;
     }
 
     img {

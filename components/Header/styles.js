@@ -10,7 +10,7 @@ export const Container = styled.header`
     align-items: center;
 
     .logo {
-        height: 1.2em;
+        
     }
 
     img {
