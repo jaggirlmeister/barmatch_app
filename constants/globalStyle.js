@@ -14,7 +14,8 @@ h1{ color:#000;}
 
 .inner {max-width:1200px; margin: 0 auto;}
 
-button { width: 140px; cursor: pointer; opacity: .8; background: #fff; border:0; text-transform: uppercase; padding:20px 20px!important; color:#fff; background-color:#000; margin:0 auto;margin-left:20px; border-radius:20px; font-weight:800; text-align:center;}
+button { width: 140px; cursor: pointer; background: #fff; border:0; text-transform: uppercase; padding:20px 20px!important; color:#fff; background-color:#000; margin:0 auto;margin-left:20px; border-radius:20px; text-align:center;}
+button:hover{ opacity: .8; }
 
 button:first-child {margin-left:0;}
 
@@ -23,11 +24,11 @@ button:first-child {margin-left:0;}
 .hightlight {background-color: #F0B40A; color: #320A46;}
 .hightlight_over {background-color: #eee; color: #320A46;}
 
-.purple { background-color:#160932; }
-.light_purple { background-color:#514075; }
-.magenta { background-color: #631B5C; }
-.cyan { background-color: #34BBBB; }
-.salmon { background-color: #EF8457; }
+.purple { background-color:#160932!important; }
+.light_purple { background-color:#514075!important; }
+.magenta { background-color: #631B5C!important; }
+.cyan { background-color: #34BBBB!important; }
+.salmon { background-color: #EF8457!important; }
 
 
 * {

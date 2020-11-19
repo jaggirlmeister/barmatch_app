@@ -59,7 +59,7 @@ const PostsForm = ({userId}) => {
                             <Field as="textarea" type="content" name="content" placeholder="¿Por qué deberíamos agregar este bar?" />
                             <ErrorMessage name="content" component="div" />
                         </div>
-                        <button type="submit" disabled={isSubmitting} className="orange">
+                        <button type="submit" disabled={isSubmitting} className="light_purple">
                             Enviar
                         </button>
                     </Form>

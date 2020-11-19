@@ -9,21 +9,8 @@ export const Container = styled.header`
     justify-content: space-between;
     align-items: center;
 
-    .logo {
-        
-    }
-
-    img {
-        margin-left: 0.5rem;
-    }
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    .logo { width: 220px; }
+    img {  }
+    a { color: inherit; text-decoration: none; display: flex; justify-content: center; align-items: center; }
+    a:hover{ color: #34BBBB; }
 `;
