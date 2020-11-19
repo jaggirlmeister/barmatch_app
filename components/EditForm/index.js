@@ -53,14 +53,14 @@ const EditForm = ({values, handleEditFormClose}) => {
                             <ErrorMessage name="title" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field type="text" name="excerpt" placeholder="Bajada" />
+                            <Field type="text" name="excerpt" placeholder="Dirección" />
                             <ErrorMessage name="company" component="div" />
                         </div>
                         <div className="input_row">
                             <Field as="textarea" type="content" name="content" placeholder="Contenido" />
                             <ErrorMessage name="content" component="div" />
                         </div>
-                        <button type="submit" disabled={isSubmitting} className="orange">
+                        <button type="submit" disabled={isSubmitting} className="purple">
                             Enviar
                         </button>
                     </Form>

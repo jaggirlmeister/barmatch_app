@@ -23,6 +23,13 @@ button:first-child {margin-left:0;}
 .hightlight {background-color: #F0B40A; color: #320A46;}
 .hightlight_over {background-color: #eee; color: #320A46;}
 
+.purple { background-color:#160932; }
+.light_purple { background-color:#514075; }
+.magenta { background-color: #631B5C; }
+.cyan { background-color: #34BBBB; }
+.salmon { background-color: #EF8457; }
+
+
 * {
   box-sizing: border-box;
 }

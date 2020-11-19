@@ -9,5 +9,6 @@ ul{
 }
 li{
     margin-left:20px;
+    color: #fff;
 }
 `

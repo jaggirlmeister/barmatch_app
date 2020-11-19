@@ -5,7 +5,7 @@ const SinglePost = (props) => {
     return (
         <>
         <div>Titulo: {props.title}</div>
-        <div>Bajada: {props.excerpt}</div>
+        <div>Direccion: {props.excerpt}</div>
         <div>Contenido: {props.content}</div>
         <div>Autor: {props.userMail}</div>
         </>
