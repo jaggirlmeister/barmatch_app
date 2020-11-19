@@ -8,6 +8,7 @@ const Container = styled.div`
     align-items: center;
     width: 100%;
     background-color: #000;
+    min-height: 100vh;
 
 `
 export default Container

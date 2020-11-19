@@ -52,11 +52,11 @@ const PostsForm = ({userId}) => {
                             <ErrorMessage name="title" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field type="text" name="excerpt" placeholder="Bajada" />
+                            <Field type="text" name="excerpt" placeholder="Locación" />
                             <ErrorMessage name="company" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field as="textarea" type="content" name="content" placeholder="Contenido" />
+                            <Field as="textarea" type="content" name="content" placeholder="¿Por qué deberíamos agregar este bar?" />
                             <ErrorMessage name="content" component="div" />
                         </div>
                         <button type="submit" disabled={isSubmitting} className="orange">
