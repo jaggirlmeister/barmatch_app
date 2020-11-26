@@ -56,8 +56,8 @@ const PostsForm = ({userId}) => {
                             <ErrorMessage name="company" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field type="text" name="excerpt" placeholder="Tags" />
-                            <ErrorMessage name="company" component="div" />
+                            <Field type="text" name="tags" placeholder="Tags" />
+                            <ErrorMessage name="tags" component="div" />
                         </div>
                         <div className="input_row">
                             <Field as="textarea" type="content" name="content" placeholder="¿Por qué deberíamos agregar este bar?" />
