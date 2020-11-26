@@ -24,7 +24,7 @@ body {
   backdrop-filter: blur(50px);
 }
 
-h1{ color:#fff; font-family: 'ReemKufi';}
+h1{ color:#fff; font-family: 'ReemKufi'; letter-spacing: .7px; font-size: 37px; font-weight: normal;}
 
 .inner {max-width:1200px; margin: 0 auto;}
 

@@ -15,7 +15,7 @@ export default function Nav() {
                     </>
                     :
                     <>
-                        <li><Link href="/dashboard"><a>Dashboard</a></Link></li>
+                        <li><Link href="/perfil"><a>Perfil</a></Link></li>
                         <li><a onClick={() => auth.logout()}>Logout</a></li>
                     </>
                 }

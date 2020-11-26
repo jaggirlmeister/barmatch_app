@@ -8,7 +8,7 @@ const Login = () => {
             <Container>
                 <Grid>
                     <Col desktop={6} tablet={12} mobile={12}>
-                        <h1>Welcome Back!</h1>
+                        <h1>Welcome!</h1>
                         <h2>Es muy facil y está super copado.</h2>
                     </Col>
                     <Col desktop={6} tablet={12} mobile={12}>
