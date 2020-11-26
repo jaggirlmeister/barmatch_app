@@ -7,8 +7,15 @@ const Perfil = () => {
             <Grid>
                 <Col desktop={12} tablet={12} mobile={12}>
                     <Container>
-                        <h1>¡Hola Lean!</h1>
-                        <p>Estos son tus bares favoritos:</p>
+                        <div>
+                            <div>
+                                <h1>Mi perfil</h1>
+                                <p>Estos son tus bares favoritos:</p>
+                            </div>
+                            <a href="/dashboard">
+                                + Sugerir un Bar
+                            </a>
+                        </div>
                     </Container>
                 </Col>
             </Grid>

@@ -28,8 +28,9 @@ h1{ color:#fff; font-family: 'ReemKufi'; letter-spacing: .7px; font-size: 37px; 
 
 .inner {max-width:1200px; margin: 0 auto;}
 
-button { width: 140px; cursor: pointer; background: #fff; border:0; text-transform: uppercase; padding:20px 20px!important; color:#fff; background-color:#000; margin:0 auto;margin-left:20px; border-radius:20px; text-align:center;}
+button { width: 140px; cursor: pointer; background: #fff; border:0; text-transform: uppercase; padding:20px 20px!important; color:#fff; background-color:#000; margin:0 auto;margin-left:20px; border-radius: 12px; text-align:center;}
 button:hover{ opacity: .8; }
+input, textarea{ border-radius: 12px;}
 
 button:first-child {margin-left:0;}
 

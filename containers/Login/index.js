@@ -8,11 +8,12 @@ const Login = () => {
             <Container>
                 <Grid>
                     <Col desktop={6} tablet={12} mobile={12}>
-                        <h1>Welcome!</h1>
-                        <h2>Es muy facil y está super copado.</h2>
+                        <h1>Welcome Back!</h1>
+                        <h2>Tu nuevo bar favorito te está esperando</h2>
                     </Col>
                     <Col desktop={6} tablet={12} mobile={12}>
-                            <LoginForm />
+                        <LoginForm />
+                        <p>Pssst!.. Si todavía no tenés cuenta: <a href="/signup">Acá te podés abrir una</a></p>
                     </Col>
                 </Grid>
             </Container>

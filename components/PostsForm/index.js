@@ -48,18 +48,22 @@ const PostsForm = ({userId}) => {
                 {({ isSubmitting }) => (
                     <Form>
                         <div className="input_row">
-                            <Field type="text" name="title" placeholder="Título" />
+                            <Field type="text" name="title" placeholder="Nombre" />
                             <ErrorMessage name="title" component="div" />
                         </div>
                         <div className="input_row">
-                            <Field type="text" name="excerpt" placeholder="Locación" />
+                            <Field type="text" name="excerpt" placeholder="Ubicación" />
+                            <ErrorMessage name="company" component="div" />
+                        </div>
+                        <div className="input_row">
+                            <Field type="text" name="excerpt" placeholder="Tags" />
                             <ErrorMessage name="company" component="div" />
                         </div>
                         <div className="input_row">
                             <Field as="textarea" type="content" name="content" placeholder="¿Por qué deberíamos agregar este bar?" />
                             <ErrorMessage name="content" component="div" />
                         </div>
-                        <button type="submit" disabled={isSubmitting} className="light_purple">
+                        <button type="submit" disabled={isSubmitting} className="cyan">
                             Enviar
                         </button>
                     </Form>

@@ -69,7 +69,7 @@ const SignUpForm = () => {
                             <ErrorMessage name="name" component="div" />
                         </div>
                         <button type="submit" disabled={isSubmitting}>
-                            Submit
+                            Sign Up
                         </button>
                     </Form>
                 )}
