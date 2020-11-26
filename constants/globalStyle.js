@@ -1,13 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+
+@font-face {
+  font-family: 'ReemKufi';
+  src: local('ReemKufi'), url(fonts/ReemKufi-Regular.ttf) format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  font-family: 'ReemKufi';
 }
 
 h1{ color:#000;}
