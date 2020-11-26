@@ -7,14 +7,24 @@ const GlobalStyle = createGlobalStyle`
   src: local('ReemKufi'), url(fonts/ReemKufi-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'), url(fonts/Raleway-Light.ttf) format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'ReemKufi';
+  font-family: 'Raleway';
+  background-image: url("back-blur.png");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-color: #000;
+  backdrop-filter: blur(50px);
 }
 
-h1{ color:#000;}
+h1{ color:#fff; font-family: 'ReemKufi';}
 
 .inner {max-width:1200px; margin: 0 auto;}
 

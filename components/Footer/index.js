@@ -8,8 +8,9 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                By{' '}
                 <img src="/logo.svg" alt="Minimal.ar Logo" className="logo" />
+                <p>Buenos Aires, Argentina 2020</p>
+
             </a>
         </Container> 
     )
