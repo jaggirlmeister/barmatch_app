@@ -1,7 +1,14 @@
 import Container from './styled';
-import {Grid, Col, Inner} from 'components'
+import {Grid, Col, Inner, InfoProfile} from 'components'
+import { useProtected } from 'lib/useProtected';
 
 const Perfil = () => {
+
+    //Para proteger una ruta
+    const auth = useProtected();
+    if (!auth.user) return null;
+    
+
     return (
         <Inner>
             <Grid>
@@ -9,7 +16,7 @@ const Perfil = () => {
                     <Container>
                         <div>
                             <div>
-                                <h1>Mi perfil</h1>
+                                <InfoProfile userId={auth.user.id} />
                                 <p>Estos son tus bares favoritos:</p>
                             </div>
                             <a href="/dashboard">

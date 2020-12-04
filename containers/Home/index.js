@@ -1,13 +1,19 @@
 import Container from './styles';
-import {Grid, Col, Inner, CardHome} from 'components'
+import {Grid, Col, Inner, CardHome, InfoProfile} from 'components'
+import { useProtected } from 'lib/useProtected';
 
 const Home = () => {
+
+    //Para proteger una ruta
+    const auth = useProtected();
+    if (!auth.user) return null;
+
     return (
         <Inner>
             <Container>
                 <Grid>
                     <Col desktop={12} tablet={12} mobile={12}>
-                        <h1>¡Hola, Lean!</h1>
+                        <InfoProfile userId={auth.user.id} />
                         <p>¿Todavía no sabés a dónde salir? ¡Te ayudamos!</p>
                     </Col>
 

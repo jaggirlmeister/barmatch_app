@@ -14,7 +14,7 @@ const Dashboard = () => {
             <Grid>
                 <Col desktop={6} tablet={12} mobile={12}>
                     <Container>
-                        <h1>Sugerir un Bar</h1>
+                        <h1>Dashboard</h1>
                         <h2>{auth.user.email}</h2>
                         <PostsForm  userId={auth.user.id}/>
                         <ListPosts  userId={auth.user.id}/>
