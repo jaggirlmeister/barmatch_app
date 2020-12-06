@@ -9,6 +9,7 @@ export const Container = styled.div`
     background-color: rgba(81, 64, 117, 0.3);
     border-radius: 15px;
     height: 250px;
+    overflow: hidden;
     :hover{
         opacity: .8;
     }
@@ -42,6 +43,9 @@ export const Container = styled.div`
         width: 100%;
         margin: 0;
         padding-bottom: 20px;
+    }
+    img{
+        width:100%;
     }
 
 `;

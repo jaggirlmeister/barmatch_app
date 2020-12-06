@@ -18,7 +18,8 @@ const Home = () => {
                     </Col>
 
                     <Col desktop={4} tablet={12} mobile={12}>
-                        <CardHome 
+                        <CardHome
+                        href="/randombar"
                         title="RANDOM BAR" 
                         description="¿Te ayudamos a decidir? Pim, pum, pam.. ¡Bar!"
                         />
@@ -30,7 +31,8 @@ const Home = () => {
                         />
                     </Col>
                     <Col desktop={4} tablet={12} mobile={12}>
-                        <CardHome 
+                        <CardHome
+                        href="/barmap"
                         title="BAR MAPS" 
                         description="¡Encontrá los mejores bares por tu zona! Turisteando bares... "
                         />

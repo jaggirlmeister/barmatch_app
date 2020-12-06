@@ -12,7 +12,7 @@ const Container = styled.div`
     }
 
     div{
-        align-content: center;
+        
     }
 `
 

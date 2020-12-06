@@ -1,5 +1,5 @@
 import Container from './styled';
-import {Grid, Col, Inner, InfoProfile} from 'components'
+import {Grid, Col, Inner, CardBar, InfoProfile} from 'components'
 import { useProtected } from 'lib/useProtected';
 
 const Perfil = () => {
@@ -25,6 +25,17 @@ const Perfil = () => {
                         </div>
                     </Container>
                 </Col>
+                
+                <Col desktop={3} tablet={6} mobile={12}>
+                    <CardBar />
+                </Col>
+                <Col desktop={3} tablet={6} mobile={12}>
+                    <CardBar />
+                </Col>
+                <Col desktop={3} tablet={6} mobile={12}>
+                    <CardBar />
+                </Col>
+
             </Grid>
         </Inner>
     )

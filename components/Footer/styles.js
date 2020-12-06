@@ -6,6 +6,8 @@ export const Container = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
 
     .logo {
         height: 2em;

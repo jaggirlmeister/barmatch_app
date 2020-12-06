@@ -6,3 +6,5 @@ export { default as Login } from './Login';
 export { default as SignUp } from './SignUp';
 export { default as Dashboard } from './Dashboard';
 export { default as Perfil } from './Perfil';
+export { default as BarMap } from './BarMap'
+export { default as RandomBar } from './RandomBar'
