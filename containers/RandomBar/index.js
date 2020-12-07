@@ -23,6 +23,10 @@ const RandomBar = () => {
                     <Confetti
                     width={width}
                     height={height}
+                    colors= {[ '#EF8457', '#34BBBB', '#160932', '#514075', '#631B5C']}
+                    numberOfPieces = {500}
+                    recycle = {false}
+                    
                     />
                 </Col>
                 
