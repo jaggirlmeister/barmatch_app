@@ -20,7 +20,7 @@ const [user, setUser] = useState(" ");
     
     console.log(user)
     return (
-        <h1>¡Hola, {user.nombre}!</h1>
+        <h1>¡Hola, {user.nombre}! 👋 </h1>
         
     )}
 

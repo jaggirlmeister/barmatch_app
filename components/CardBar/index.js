@@ -5,8 +5,9 @@ const CardBar = props => {
         <Container>
             <a href="#">
                 <img src="/uptown.jpg"></img>
-                <h2>Hola {props.title}</h2>
-                <p>Este es un bar {props.description}</p>
+                <h2>{props.title}</h2>
+                <p>{props.locacion}</p>
+                <p>{props.description}</p>
             </a>
         </Container> 
     )

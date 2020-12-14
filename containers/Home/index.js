@@ -26,6 +26,7 @@ const Home = () => {
                     </Col>
                     <Col desktop={4} tablet={12} mobile={12}>
                         <CardHome 
+                        href="/barmatch"
                         title="BAR MATCH" 
                         description="¡Descubrí tu bar ideal basado en tus gustos! ¡Mandale mecha!"
                         />
